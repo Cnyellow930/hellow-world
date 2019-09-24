@@ -1,3 +1,6 @@
-.mainContainer {
+.main-container {
     background: blanchedalmond;
+}
+.content-lay {
+    display: flex;
 }

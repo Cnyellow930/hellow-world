@@ -1,18 +1,20 @@
 import React from 'react';
 import { Layout as Lay } from 'antd';
 import './Layout.css';
-
-const { Header, Footer, Sider, Content } = Lay;
+import Header from './Header';
+import SideBar from './SideBar';
+import MainContainer from './MainContainer';
+import Footer from './Footer';
 
 function Layout() {
     return (
-        <Lay className="mainContainer">
-            <Header>Header</Header>
-            <Lay>
-                <Sider>Sider</Sider>
-                <Content>Content</Content>
+        <Lay className="main-container">
+            <Header></Header>
+            <Lay className="content-lay">
+                <SideBar></SideBar>
+                <MainContainer></MainContainer>
             </Lay>
-            <Footer>Footer</Footer>
+            <Footer></Footer>
         </Lay>
     )
 }
