@@ -1,0 +1,27 @@
+.Context-Menu {
+    min-width: 80px;
+    /* min-height: 120px; */
+    position: absolute;
+    padding: 0px;
+
+    
+}
+
+ul {
+    list-style-type: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background: gray;
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    cursor: pointer;
+}
+
+li:hover {
+    background: #212121;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}

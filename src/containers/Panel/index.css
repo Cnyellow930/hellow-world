@@ -1,0 +1,4 @@
+.Panel {
+    color: white;
+    min-height: calc(100vh - 50px);
+}
